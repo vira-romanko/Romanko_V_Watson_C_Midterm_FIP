@@ -1,12 +1,32 @@
 body
 {
-	background-color: red;
-	color: red;
+	
 }
 
 #siteContainer
 {
-	width: 100;
+	width: 980px;
+	margin: 0 auto;
+}
+
+#mainHeader
+{
+	margin-top: 40px;
 	height: 100px;
-	background-color: black;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+#mainNav
+{
+	margin-left: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+#mainNav ul
+{
+	display: flex;
+	flex-direction: row;
 }
