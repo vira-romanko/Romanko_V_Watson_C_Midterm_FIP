@@ -7,10 +7,10 @@ Designed, coded, semantically tagged a static 6 page website.
 
 
 ## Build with
-HTML5(using Flexbox)
-CSS3
-JavaScript
-Python(for creating charts)
+* **HTML5(using Flexbox**
+* **CSS3**
+* **JavaScript**
+* **Python(for creating charts)**
 
 ## Workspace
 SublimeText
