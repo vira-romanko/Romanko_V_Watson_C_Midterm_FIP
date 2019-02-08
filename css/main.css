@@ -2,28 +2,13 @@
 @charset "utf-8";
 /*CSS document*/
 
+/*/*font-family: 'Chivo', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
 .hidden
 {
 	display: none;
 }
-
-
-/*font-family: 'chivoregular'*/
-
-@font-face {
-    font-family: 'chivoregular';
-    src: url('../fonts/chivo-regular-webfont.woff2') format('woff2'),
-         url('../fonts/chivo-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'roboto_slabregular';
-    src: url('robotoslab-regular-webfont.woff2') format('woff2'),
-         url('robotoslab-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
 
 }
@@ -102,7 +87,7 @@ body
 	text-align: center;
 	padding: 8px;
 	font-size: 16px;
-	font-family: 'chivoregular', Helvetica, sans-serif;
+	font-family: 'Chivo', Helvetica, sans-serif;
 	font-weight: bold;
 	text-decoration: none;
 	border-radius: 5px;
@@ -132,7 +117,7 @@ body
 
 #becomeAmember a
 {
-	font-family: 'chivoregular';
+	font-family: 'Chivo';
 	display: flex;
 	color: black;
 	text-decoration: none;
@@ -143,9 +128,248 @@ body
 }
 
 
+/*contact page*/
+
+#contactHeading
+{
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: 100px;
+	text-align: center;
+}
+
+#contactHeading h2 
+{
+	font-family: 'Roboto', Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#contactHeading p
+{
+	margin-top: 10px;
+	font-family: 'Chivo', Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+#formCon {
+	display: flex;
+	flex-direction: column;
+	height: 1052px;
+	width: 737px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#formCon label
+{
+	display: flex;
+	font-size: 20px;
+	font-family: 'Chivo', Helvetica, sans-serif;
+	margin-bottom: 5px;
+} 
+
+#nameInput {
+	height: 105px;
+	width: 650px;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+
+#name
+{
+	width: 500px;
+	height: 30px;
+	font-size: 15px;
+}
+
+#emailInput {
+	height: 105px;
+	width: 650px;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+#mail
+{
+	width: 625px;
+	height: 30px;
+	font-size: 15px;
+}
+
+#checkBox {
+	height: 325px;
+	width: 505px;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+#checkBox p
+{
+	font-size: 20px;
+	font-family: 'Chivo', Helvetica, sans-serif;
+}
+
+#checkBox
+{
+	font-family: 'Chivo', Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+#checkBox input
+{
+	margin-top: 30px;
+}
 
 
-  
+
+#messageInput {
+	height: 365px;
+	width: 650px;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+#messageBox
+{
+	height: 350px;
+	width: 600px;
+}
+
+#Submit {
+	width: 175px;
+	height: 60px;
+	margin-top: 40px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+	background-color: #9abd4b;
+}
+
+#Submit p {
+	font-family: 'Chivo', Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 13px;
+}
+
+
+#meetingsHeading {
+	margin-top: 90px;
+	width: 300px;
+	height: 120px;
+	margin-left: 81px;
+}
+
+#meetingsHeading h2 {
+	font-family: 'Roboto', Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#meetingsHeading p {
+	margin-top: 10px;
+	font-family: 'Roboto', Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+#meetingsInfo {
+	font-family: 'Chivo', Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+
+}
+
+#dateCon {
+	display: flex;
+	flex-direction: row;
+	width: 819px;
+	height: 55px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+#dateIcon {
+	display: flex;
+	flex-direction: row;
+	width: 90px;
+	height: 50px;
+}
+
+
+#dateInfo {
+	width: 395px;
+	height: 50px;
+	margin-left: auto;
+}
+
+
+#timeCon {
+	
+	display: flex;
+	flex-direction: row;
+	width: 819px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+#timeIcon {
+	display: flex;
+	flex-direction: row;
+	width: 90px;
+	height: 50px;
+}
+
+
+
+#timeInfo {
+	
+	width: 395px;
+	height: 50px;
+	margin-left: auto;
+}
+
+#locationCon {
+	
+	display: flex;
+	flex-direction: row;
+	width: 819px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+#locationIcon {
+	display: flex;
+	flex-direction: row;
+	width: 93px;
+	height: 50px;
+}
+
+
+
+#locationInfo {
+	width: 395px;
+	height: 50px;
+	margin-left: auto;
+}
+
+#googlemapsPlug {
+	width: 340px;
+	height: 275px;
+	margin-left: 81px;
+	margin-top: 25px;
+}
+
   #mainFooter
 {
 	width: 980px;
@@ -155,8 +379,6 @@ body
 	flex-direction: row;
 	margin-top: 100px;
 }
-
-
 
 
 #footLogo
@@ -169,8 +391,7 @@ body
 }
 #botNav  ul li a
 {
-	font-family:'chivoregular', Helvetica, sans-serif;
-	
+	font-family:'Chivo', Helvetica, sans-serif;
 	display: flex;
 	flex-direction: row;
 	font-size: 24px;
@@ -247,7 +468,6 @@ body
 	margin-top: 54px;
 	flex-direction: row;
   }
-
 
 
 
