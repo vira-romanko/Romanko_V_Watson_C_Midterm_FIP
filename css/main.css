@@ -169,7 +169,7 @@ body
 }
 #botNav  ul li a
 {
-	font-family: 'roboto_slabregular', Helvetica, sans-serif;
+	font-family:'chivoregular', Helvetica, sans-serif;
 	
 	display: flex;
 	flex-direction: row;
