@@ -163,9 +163,16 @@ body
 {
 	display: flex;
 	font-size: 20px;
+	font-weight: bold;
 	font-family: 'Chivo', Helvetica, sans-serif;
 	margin-bottom: 5px;
 } 
+
+#formCon input
+{
+	border-width: 1px;
+	border-style: solid;
+}
 
 #nameInput {
 	height: 105px;
@@ -204,6 +211,7 @@ body
 
 #checkBox p
 {
+	font-weight: bold;
 	font-size: 20px;
 	font-family: 'Chivo', Helvetica, sans-serif;
 }
@@ -516,7 +524,7 @@ body
 
 /*border decoration*/
 
-#borderdecoDiv
+.borderdecoDiv
 {
 	display: flex;
 	flex-direction: row;
@@ -524,12 +532,23 @@ body
 	width: 980px;
 }
 
-#borderdecoDiv img
+.borderdecoDiv img
 {
 	margin-top: auto;
 }
 
-#leftLine
+.borderdecoDiv img:hover
+{
+	animation: 2s bounce infinite;
+}
+
+@keyframes bounce {
+  		0%   { transform: translateY(0); }
+        50%  { transform: translateY(-30px); }
+        100% { transform: translateY(0px); }
+}
+
+.leftLine
 {
 	margin-right: auto;
 	border-bottom: 3.5px solid #5d7031;
@@ -537,12 +556,22 @@ body
 	width: 437px;
 }
 
-#rightLine
+.rightLine
 {
 	margin-left: auto;
 	border-bottom: 3.5px solid #5d7031;
 	height: 75px;
 	width: 438px;
+}
+
+.dividerDash
+{
+	margin-right: auto;
+	width: 340px;
+	height: 65px;
+	border-right: solid 3.5px #5d7031;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 
@@ -582,17 +611,23 @@ body
 	font-family: 'Chivo', Helvetica, sans-serif;
 	font-weight: bold;
 	font-size: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 15px;
+	padding: 20px;
 }
 
-#eventBox
+.picRow
+{
+	display: flex;
+	flex-direction: row;
+}
+
+
+.eventBox
 {
 	margin-top: 30px;
 	display: flex;
 	flex-direction: row;
 }
+
 
 .eventText
 {
@@ -600,35 +635,108 @@ body
 	flex-direction: column;
 }
 
-.dividerDash
+
+
+
+#CTRpic
 {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+
+#newsletterHeading
+{
+	margin-top: 40px;
+	margin-left: auto;
 	margin-right: auto;
-	width: 340px;
-	height: 65px;
-	border-right: solid 3.5px #5d7031;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	width: 820px;
+	height: 100px;
+	text-align: center;
 }
 
-
-#borderdecoDiv img:hover
+#newsletterHeading h3 
 {
-	animation: 2s bounce infinite;
+	font-family: 'Roboto', Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: bold;
 }
 
-@keyframes bounce {
-  		0%   { transform: translateY(0); }
-        50%  { transform: translateY(-30px); }
-        80% { transform: translateY(15px); }
-        100% { transform: translateY(0px); }
+#newsletterHeading p
+{
+	margin-top: 20px;
+	font-family: 'Chivo', Helvetica, sans-serif;
+	font-size: 22px;
+}
+
+#newslettersCon
+{
+	width: 400px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Chivo', Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+#chartLabel
+{
+	display: flex;
+	flex-direction: row;
+	font-family: 'Chivo', Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	justify-content: space-between;
+}
+
+
+#newsletterChart
+{
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 250px;
+	width: 400px;
+}
+
+#newsletterChart h2
+{
+	display: flex;
+	flex-direction: row;
+	font-family: 'Roboto', Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+.newsletterChartrows
+{
+	display: flex;
+	flex-direction: row;
+	height: 50px;
+	width: 400px;
+}
+
+.year
+{
+	width: 200px;
+	border-top: 1.5px solid green;
+	border-right: 1.5px solid green;
+	border-bottom: 1.5px solid green;
+	text-align: center;
 }
 
 
 
-
-
-
-
+.PDFnewsletter
+{
+	width: 200px;
+	border-top: 1.5px solid green;
+	border-left: 1.5px solid green;
+	border-bottom: 1.5px solid green;
+	text-align: center;
+}
 
 /*footer*/
 
