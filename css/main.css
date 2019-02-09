@@ -700,6 +700,8 @@ body
 	margin-right: auto;
 	height: 250px;
 	width: 400px;
+	border-bottom: 1.5px solid #5d7031;
+	border-top: 1.5px solid #5d7031;
 }
 
 #newsletterChart h2
@@ -737,6 +739,73 @@ body
 	border-bottom: 1.5px solid #5d7031;
 	text-align: center;
 }
+
+/*memberships page*/
+
+#membershipHeading {
+	margin-top: 40px;
+	width: 500px;
+	height: 90px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#membershipHeading h2 {
+	font-family: 'Roboto', Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#membershipHeading p {
+	margin-top: 10px;
+	font-family: 'Chivo', Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+#whymembershipDiv
+{
+	margin-top: 60px;
+	width: 980px;
+	height: 515px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.whymembershipBox
+{
+	width: 325px;
+	height: 515px;
+	display: flex;
+	flex-direction: column;		
+}
+
+.whymemberHeader
+{
+	display: flex;
+	width: 270px;
+	height: 45px;
+	background-color: #9abd4b;
+	transition-duration: 1s;
+	font-family: 'Chivo', Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+.whymemberHeader p
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+.whymemberHeader:hover
+{
+	border-radius: 15px;
+}
+
+
+
 
 /*footer*/
 
