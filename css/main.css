@@ -721,9 +721,9 @@ body
 .year
 {
 	width: 200px;
-	border-top: 1.5px solid green;
-	border-right: 1.5px solid green;
-	border-bottom: 1.5px solid green;
+	border-top: 1.5px solid #5d7031;
+	border-right: 1.5px solid #5d7031;
+	border-bottom: 1.5px solid #5d7031;
 	text-align: center;
 }
 
@@ -732,9 +732,9 @@ body
 .PDFnewsletter
 {
 	width: 200px;
-	border-top: 1.5px solid green;
-	border-left: 1.5px solid green;
-	border-bottom: 1.5px solid green;
+	border-top: 1.5px solid #5d7031;
+	border-left: 1.5px solid #5d7031;
+	border-bottom: 1.5px solid #5d7031;
 	text-align: center;
 }
 
