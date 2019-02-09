@@ -123,6 +123,390 @@ body
 }
 
 
+
+* Slideshow container */
+.slideshow-container {
+  width: 980px;
+  position: relative;
+  margin-top: 50px;
+
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #ffdc73;
+  font-weight: normal;
+  font-size: 36px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  margin-right: 30px;
+  margin-left: 30px;
+
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #5d7031;
+}
+
+/* Caption text */
+.text h2
+{
+  color: #000;
+  font-size: 32px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 30%;
+  margin-left: 225px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+}
+
+
+.text p
+{
+   color: #000;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 50%;
+  margin-left: 225px;
+  font-family:  'Roboto Slab', Helvetica, sans-serif;
+  font-weight: bold;
+  width: 570px;
+
+}
+
+
+
+/* The dots/bullets/indicators */
+
+
+#dots
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: -30px;
+	
+	margin-left: 435px;
+
+
+}
+
+
+
+
+ .dot {
+  cursor: pointer ;
+  height: 25px;
+  width: 25px;
+  margin: 0 6px;
+  background-color: #ffdc73;
+ /* opacity: 0.5;
+*/
+  border-radius: 50%;
+  display: inline-block;
+  
+
+  transition: background-color 0.6s ease;
+  
+
+}
+
+.active, .dot:hover {
+  background-color: #ecb40e;
+
+
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+#new
+{
+	width: 980px;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	margin-top: 25px;
+	text-align: center;
+}
+
+.yellow1
+{
+	height: 40px;
+	border-left: solid 3px #ffdc73;
+	margin-left:  50%;
+}
+
+.title
+{
+	font-family: 'Roboto Slab', Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold; 
+}
+
+.subTitle
+{
+	margin-top: 50px;
+	font-family: 'Roboto Slab', Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+.yellow2
+{
+	height: 70px;
+	border-left: solid 3px #ffdc73;
+	margin-left:  50%;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+#plainText
+{
+	font-family: 'Chivo', Helvetica, sans-serif;
+	font-size: 20px;
+	width: 788px;
+	height: 172px;
+	margin-left: 40px;
+
+
+}
+
+#plainText 
+{
+	line-height: 40px;
+}
+
+
+#plainText span
+{
+	display: block;
+	margin-bottom: 15px;
+}
+
+#seeLocation a
+{
+	background-color: #8eae43;
+	font-family: 'Chivo', sans-serif;
+	color: black;
+	font-size: 20px;
+	margin-top: 10px;
+	padding: 10px;
+	margin-left: 40px;
+}
+
+
+#seeLocation a:hover
+{
+	background-color: #5d7031;
+	color: white;
+	border-radius: 15px;
+	transition: 0.3s ease;
+
+
+}
+
+#comingUp
+{
+	width: 980px;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	margin-top: 50px;
+	text-align: center;
+}
+
+
+#comingUpEvents
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+
+.learnM
+{
+	font-family: 'Roboto Slab', Helvetica, sans-serif;
+	background-color: #ffe8a3;
+	text-align: center;
+	font-size: 18px;
+	color: #5d7031;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+
+
+.learnM:hover
+{
+	color: #000;
+	transform: scale(0.95);
+	transition: 0.8s ease;
+	background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f1e767+0,feb645+100 */
+background: #f1e767; /* Old browsers */
+background: -moz-linear-gradient(top, #f1e767 0%, #feb645 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #f1e767 0%,#feb645 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #f1e767 0%,#feb645 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645',GradientType=0 ); /* IE6-9 */
+}
+
+
+#getInvolved
+{
+	margin-top: 100px ;
+	text-align: center;
+	
+}
+
+#help
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-left: 40px;
+	margin-right: 40px;
+	text-align: center;
+	margin-top: 90px;
+	border-bottom: solid 1px black;
+	padding-bottom: 150px;
+
+}
+
+#help img:hover
+{
+
+	transform: 
+}
+
+#help img
+{
+	padding: 15px;  
+}
+
+.helpHeader
+{
+	font-family: 'Roboto Slab', Helvetica, sans-serif;
+	color: #5d7031;
+	font-size: 18px;
+
+}
+
+
+#sponsors
+{
+	/*display: flex;
+	flex-direction: row;*/
+	/*justify-content: space-between;*/
+	margin-left: 40px;
+	margin-top: 50px;
+	margin-right: 40px;
+}
+
+#sponsors img
+{
+	margin-top: 60px;
+	padding: 0 10px 0 10px;
+}
+
+
+
+/*About Page
+*/
+
+
+
+.about
+{
+	text-align: center;
+	margin-top: 65px;
+	font-family: 'Roboto Slab', Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold; 
+}
+
+
+.subAbout 
+{
+	margin-left: 80px;
+	margin-top: 50px;
+	font-family: 'Roboto Slab', Helvetica, sans-serif;
+	font-size: 20px;
+	margin-bottom: 45px;
+
+}
+
+
+.points
+{
+	margin-left: 85px;
+	display: flex;
+	flex-direction: row;
+
+
+}
+
+.points
+{
+	margin-top: 18px;
+}
+
+.pointsText
+{
+	font-family: 'Chivo', sans-serif;
+	color: black;
+	font-size: 18px;
+	/*background-color: #000;*/
+	text-align: center;
+	margin-left: 5px;
+	padding: 10px;
+
+}
+
+#mission
+{
+	margin-top: 100px;
+}
+
+
 /*contact page*/
 
 #contactHeading
