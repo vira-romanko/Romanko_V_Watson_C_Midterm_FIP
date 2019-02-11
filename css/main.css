@@ -12,7 +12,7 @@ font-family: 'Roboto', sans-serif;*/
 
 body
 {
-	background-color: #fff;
+	background-color: #efef;
 
 }
 
@@ -21,6 +21,7 @@ body
 {
 	width: 980px;
 	margin: 0 auto;
+	background-color: white;
 }
 
 
@@ -124,7 +125,7 @@ body
 
 
 
-* Slideshow container */
+/* Slideshow container */
 .slideshow-container {
   width: 980px;
   position: relative;
@@ -381,7 +382,7 @@ body
 	color: #000;
 	transform: scale(0.95);
 	transition: 0.8s ease;
-	background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f1e767+0,feb645+100 */
+	
 background: #f1e767; /* Old browsers */
 background: -moz-linear-gradient(top, #f1e767 0%, #feb645 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top, #f1e767 0%,#feb645 100%); /* Chrome10-25,Safari5.1-6 */
@@ -411,11 +412,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', end
 
 }
 
-#help img:hover
+/*#help img:hover
 {
 
 	transform: 
-}
+}*/
 
 #help img
 {
@@ -501,10 +502,333 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', end
 
 }
 
+
 #mission
 {
 	margin-top: 100px;
 }
+
+
+#firstR
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-left: 80px;
+	margin-right: 80px;
+	text-align: center;
+    
+}
+
+.titleP
+{
+	font-family: 'Roboto Slab', Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #5d7031;
+	margin-bottom: 30px;
+
+}
+
+.protect:hover
+{
+	background-color: #ffdc73;
+	padding: 50px 70px 50px 70px;
+	
+	
+
+
+	
+}
+
+.protect
+{
+	padding: 50px 70px 50px 70px;
+	position: relative;
+
+}
+
+
+#secondR
+{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-left: 80px;
+	margin-right: 80px;
+	text-align: center;
+
+}
+	
+
+
+
+.hoverText
+{
+	font-family: 'Roboto Slab', Helvetica, sans-serif;
+	font-size:14px;
+	visibility: hidden;
+	position: absolute;
+	
+
+}
+
+.hoverText:hover
+{
+	background-color: #ffdc73;
+	visibility: visible;
+	text-align: center;
+	}
+
+
+
+	#executives
+	{
+		margin-left: 80px;
+		margin-bottom: 30px;
+	}
+
+
+.nameT
+{
+	font-family: 'Roboto Slab', Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+}
+
+#names
+{
+	margin-left: 80px;
+	margin-right: 80px;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+
+
+#team
+{
+	background-color: #bcd488;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	margin-top: 50px;
+}
+
+.subName
+{
+	font-family: 'Chivo', sans-serif;
+	color: black;
+	font-size: 18px;
+	margin-top: 20px;
+
+}
+
+
+#sites
+{
+	margin-left: 80px;
+	margin-right: 80px;
+	/*background-color: #7ba2d1;*/
+	margin-top: 150px;
+
+
+}
+
+#links1
+{
+	display: flex;
+	
+	flex-direction: row; 
+	justify-content: space-between;
+
+}
+
+
+#links2
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 30px;
+
+}
+
+
+
+
+
+
+#interest
+{
+	margin-bottom: 20px;
+
+}
+
+
+/*projects page*/
+
+#projects
+{
+	text-align: center;
+	margin-top: 100px;
+}
+
+#motto
+{
+	margin-left: 80px;
+	margin-bottom: 30px;
+}
+
+#plainT
+{
+	font-family: 'Chivo', sans-serif;
+	color: black;
+	font-size: 20px;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 55px;
+	/*line-height: -14px;*/
+}
+
+
+
+.vitalPjc
+{
+	margin-top: 100px;
+	margin-left: 80px;
+}
+
+#pjc
+{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	
+	justify-content: space-between;
+	margin-bottom: 110px;
+}
+
+#pjc img
+{
+	margin-top: 35px;
+
+	/*position: relative;*/
+}
+
+
+
+
+.pjcHover img:hover
+{
+	
+   opacity: 0.5;
+  
+  background:#ffdc73;
+  position: relative;
+  transition: opacity .2s, visibility .2s
+}
+
+
+
+
+.learnMore 
+{
+	position: absolute;
+	margin-top: -200px;
+	margin-left: 160px;
+	text-align: center;
+	
+	font-family: 'Roboto Slab', Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #5d7031;
+	visibility: visible;
+
+}
+
+
+#wantHelp
+{
+	background-color: #bcd488;
+	margin-bottom: 100px;
+	
+	padding-bottom: 35px;
+}
+
+.wth
+{
+	padding-top: 20px;
+}
+
+
+.plainText
+{
+	font-family: 'Roboto Slab', Helvetica, sans-serif;
+	font-size: 22px;
+	padding-top: 20px;
+	margin-left:  80px;
+}
+
+.plainText span a
+{
+ font-weight: bold;
+ color: black;
+
+}
+
+#wantMore
+{
+	margin-left: 80px;
+}
+
+
+#wantMore  a span
+{
+	font-weight: bold;
+ color: black;
+
+}
+
+
+#paddling
+{
+	margin-left: 20px;
+
+}
+
+#morePjc
+{
+	margin-top: 30px;
+	/*display: flex;*/
+	/*flex-direction: row;*/
+}
+
+#twoEvents
+
+{
+	display: flex;
+	flex-direction: column;
+	justify-content:  space-between;
+	margin-left: 40px;
+}
+
+
+
+
+
+#oneEvent
+{
+	display: flex;
+	flex-direction: row;
+}
+
+ 
+
 
 
 /*contact page*/
