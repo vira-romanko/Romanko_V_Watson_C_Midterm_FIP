@@ -517,6 +517,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', end
 	margin-left: 80px;
 	margin-right: 80px;
 	text-align: center;
+
     
 }
 
@@ -526,26 +527,94 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', end
 	font-size: 20px;
 	font-weight: bold;
 	color: #5d7031;
-	margin-bottom: 30px;
+	margin-bottom: 165px;
+	opacity: 1;
+}
+
+
+.protect:hover .titleP
+{
+	opacity: 0;
+	transition: 2s ease;
 
 }
+
+
+
 
 .protect:hover
 {
 	background-color: #ffdc73;
 	padding: 50px 70px 50px 70px;
-	
-	
+	transition: 2s ease;
+	transform: rotateY(360deg);
+    animation:  0.5s ;
 
+	
+	
+}
+
+
+#section1
+{
+	background-image: url(../images/protect.svg);
+	background-repeat: no-repeat;
+	background-position: center;
 
 	
 }
 
+
+ 
+
+
+
+#section2
+{
+	background-image: url(../images/participate.svg) ;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#section3
+{
+	background-image: url(../images/promote.svg) ;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+#section4
+{
+	background-image: url(../images/fish.svg) ;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+#section5
+{
+	background-image: url(../images/form.svg) ;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+#section6
+{
+	background-image: url(../images/increace.svg) ;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+
 .protect
 {
 	padding: 50px 70px 50px 70px;
-	position: relative;
 
+
+	
 }
 
 
@@ -567,19 +636,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', end
 .hoverText
 {
 	font-family: 'Roboto Slab', Helvetica, sans-serif;
-	font-size:14px;
+	font-size:18px;
 	visibility: hidden;
 	position: absolute;
-	
+
 
 }
 
-.hoverText:hover
+.protect:hover .hoverText
 {
-	background-color: #ffdc73;
+	/*background-color: #ffdc73;*/
 	visibility: visible;
-	text-align: center;
+	position: relative;
+
 	}
+
+
 
 
 
@@ -1551,7 +1623,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', end
 	display: flex;
 	width: 270px;
 	height: 45px;
-	background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f1e767+0,feb645+100 */
+	
     background: #f1e767; /* Old browsers */
     background: -moz-linear-gradient(top, #f1e767 0%, #feb645 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, #f1e767 0%,#feb645 100%); /* Chrome10-25,Safari5.1-6 */
@@ -1626,7 +1698,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', end
 	margin-left: auto;
 	margin-right: auto;
 	transition-duration: 1s;
-	background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f1e767+0,feb645+100 */
+	
     background: #f1e767; /* Old browsers */
     background: -moz-linear-gradient(top, #f1e767 0%, #feb645 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, #f1e767 0%,#feb645 100%); /* Chrome10-25,Safari5.1-6 */
