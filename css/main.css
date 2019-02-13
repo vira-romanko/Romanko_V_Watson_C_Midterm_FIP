@@ -12,7 +12,7 @@ font-family: 'Roboto', sans-serif;*/
 
 body
 {
-	background-color: #efef;
+	background-color: #FFE598;
 
 }
 
@@ -1525,7 +1525,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', end
 	height: 600px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .whymembershipBox
@@ -1577,7 +1577,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', end
 	margin-top: 30px;
 	margin-bottom: 15px;
 }	
-	
+
+#membershipGraph img
+{
+	margin-left: 40px;
+}	
 
 #morewayshelp
 {
