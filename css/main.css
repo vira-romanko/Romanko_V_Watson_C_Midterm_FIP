@@ -26,30 +26,17 @@ body
 
 
 
-
-#topBar
-{
-	width: 980px;
-	height: 21px;
-	background-color: #5d7031;
-
-
-}
-
-
-
 #mainHeader
 {
 	width: 980px;
 	height: 183px;
 	display: flex;
 	flex-direction: row;
-	background-image: url(../images/header_image.png);
 }
 
 #logo
 {
-	margin-top: -12px;
+
 	margin-left: 7px;
 }
 
@@ -61,7 +48,7 @@ body
 	margin-left: 20px;
 	width: 707px;
 	height: 110px;
-	margin-top: 50px;
+	margin-top: 60px;
 }
 
 #mainNav ul
@@ -75,15 +62,13 @@ body
 {
 	display: block;
 	width: 110px;
-	background-color: #ffdc73;
 	margin-left: 20px;
-	margin-bottom: 35px;
-	margin-top: -5px;
+	margin-bottom: 20px;
 	color: black;
 	text-align: center;
 	padding: 8px;
 	font-size: 16px;
-	font-family: 'Chivo', Helvetica, sans-serif;
+	font-family: 'Roboto', Helvetica, sans-serif;
 	font-weight: bold;
 	text-decoration: none;
 	border-radius: 5px;
@@ -129,7 +114,7 @@ body
 .slideshow-container {
   width: 980px;
   position: relative;
-  margin-top: 50px;
+
 
 
 }
