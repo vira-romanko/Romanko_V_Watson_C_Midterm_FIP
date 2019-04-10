@@ -1,12 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-		<meta charset="utf-8">
+		<meta charset="utf-8"/>
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 		<title> Thames River Anglers Association</title>
 		<!-- link to reset first -->
-		<link rel="stylesheet" type="text/css" href="css/reset.css">
-		<link href="https://fonts.googleapis.com/css?family=Chivo%7CRoboto+Slab" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css" >
 	</head>
 
 <body>
@@ -14,229 +16,71 @@
 	<h1 class="hidden">Thames River Anglers Association</h1>
   
   
-  <section id="topBar"><h2 class="hidden"> Top Bar</h2>  </section>
 	<header id="mainHeader">
 			 
-		<div id="logo">
-	         <img src="images/traa_logo.svg" alt="TRAA logo" width="200">
-	    </div>
 			
 			<nav id="mainNav">
+				
 				<h2 class="hidden">Main Navigation</h2>
-				<ul>
-					<li><a href="index.html">HOME</a></li>
+				<button id="button"></button>
+	
+			<div id="hamCon">
+				<ul id="burgMenu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="pastevents.html">Past Events</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="contact.html">Contact</a></li>
 
-					<li><a href="about.html">ABOUT</a></li>
-					<li><a href="pastevents.html">PAST EVENTS</a></li>
-					<li><a href="projects.html">PROJECTS</a></li>
-
-					
-
-					<li><a href="contact.html">CONTACT</a></li>
 				</ul>
-
-				<div id="becomeAmember">
-					<a href="memberships.html">Become a member</a>
-				</div>
-
+			</div>
+			<div id="memberships"><a href="memberships.html"><span>Become a member</span></a></div>
 			</nav>
+
+				<div id="logo">
+	         <img src="images/traa_logo_header.svg" alt="TRAA logo" >
+	   			</div>
+
+				
+
+              <div id="searchCon">
+              	<button id="search"></button>
+
+              	<form action="search.php" class="searchBox">
+             
+              	<input type="text" placeholder="Type...">
+              </form>
+               
+                 
+              </div>
+
+            
+           
+
+
 			
 			
 	</header>
 
-
-
-	<div class="slideshow-container">
-		
-
-
-  <!-- Full-width images with number and caption text -->
-<div class="mySlides fade">
-   
-    <img src="images/carousel_3.jpg" alt=" Carousel Image 1">
-    <div class="text">
-    	<h2> Dedication Today for Tomorrow</h2>
-    	<p> "For the enhancement, protection and promotion of a viable, 
-             multi-species fishery within the Thames River watershed”</p>
-    </div>
-  </div>
-
-  <div class="mySlides fade">
-    
-    <img src="images/carousel_2.jpg"  alt="Carousel Image 2">
-    <div class="text"><h2> Dedication Today for Tomorrow</h2>
-    	<p> "For the enhancement, protection and promotion of a viable, 
-             multi-species fishery within the Thames River watershed”</p></div>
-  </div>
-
-  <div class="mySlides fade">
-    
-    <img src="images/carousel_1.jpg"  alt=" Carousel Image 3">
-    <div class="text"><h2> Dedication Today for Tomorrow</h2>
-    	<p> "For the enhancement, protection and promotion of a viable, 
-             multi-species fishery within the Thames River watershed”</p></div>
-</div>
-
-
-  	
-<div id="dots">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
-
-
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-
-
-
-
-
-
-<div>
-
-
-
-<div id="new">
-	<div  class="yellow1"></div>
-	<h2 class="title"> What's new?</h2>
-	<p class="subTitle"> TRAA General Meetings</p>
-	<div class="yellow2"></div>
-	
-</div>
-
-<p id="plainText"><span> Happy New Year!</span>
-As part of the new you for 2019 why not start coming out to TRAA General Meetings. That way you're up on the latest details on TRAA news, plans and events. </p>
-
-<div id="seeLocation">
-	<a href="contact.html">See Location</a>
-</div>
-</div>
-
-
-<div>
-	<div id="comingUp">
-		<div  class="yellow1"></div>
-	     <h2 class="title"> Coming Up</h2>
-	      <p class="subTitle"> TRAA Vital Projects</p>
-	      <div class="yellow2"></div>
-	</div>
-
-<div id="comingUpEvents">
-	<section>
-		<h3 class="subTitle"> Trout Hatchery</h3>
-		<a href="projects.html"><p class="learnM"> Learn More</p></a>
-		<img src="images/trout_hatchery.jpg" alt="Trout Hatchery Image">
-
-	</section>
-
-	<section>
-		<h3 class="subTitle"> Rod Building</h3>
-		 <a href="projects.html"><p class="learnM">Learn More</p></a>
-		<img src="images/road_building.jpg" alt=" Road Building Image">
-	</section>
-	
-</div>
-
-
-</div>
-
-
-<div>
-<div id="getInvolved">
-		<div  class="yellow1"></div>
-	     <h2 class="title"> Get Involved</h2>
-	      <p class="subTitle"> Find your way to help us</p>
-	      <div class="yellow2"></div>
-	</div>
-	<div id="help">
-<section > 
-	<a href="contact.html"><img src="images/become_a_member.svg" alt="Become a member icon"></a>
-	<h2 class="helpHeader"> Become a member</h2>
-</section>
-
-<section > 
-	<a href="contact.html"><img src="images/volunteer.svg" alt="Volunteer icon"></a>
-	<h2 class="helpHeader"> Volunteer</h2>
-</section>
-	
-
-
-<section > 
-	<a href="contact.html"><img src="images/donate.svg" alt="Donate icon"></a>
-	<h2 class="helpHeader"> Donate</h2>
-</section>
-</div>
-
-	
-
-</div>
-
-<div id="sponsors">
-
-	<h2 class="title">Major Sponsors</h2>
-	<a href="www.melchersconstruction.com"> <img src="images/melchers.jpg" alt=" Melchers logo"></a>
-
-	<a href="www.tryrecycling.com"> <img src="images/try.jpg" alt=" TRY Recycling logo"></a>
-
-	<a href="www.guillevin.com"> <img src="images/guilevin.jpg" alt=" Guillevin logo"></a>
-	<a href="www.mumamanufacturing.com"> <img src="images/muma.jpg" alt=" MUMA logo"></a>
-	<a href="www.anglingsports.ca"> <img src="images/angling_sports.jpg" alt=" Angling Sports logo"></a>
-
-
-	
-</div>
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	<img src="images/cleanup.jpg">
+	<img src="images/cleanup.jpg">
+	<img src="images/cleanup.jpg">
+	<img src="images/cleanup.jpg">
+	<img src="images/cleanup.jpg">
+	<img src="images/cleanup.jpg">
+	<img src="images/cleanup.jpg">
+	<img src="images/cleanup.jpg">
+	<img src="images/cleanup.jpg">
+
+	<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<a href="#"> LINK IS NOT WORKING</a>
+
+	</div>	
 
 
 
@@ -246,44 +90,55 @@ As part of the new you for 2019 why not start coming out to TRAA General Meeting
 	 <footer id="mainFooter">
 	    	<h2 class="hidden"> Main Footer</h2>
 	    	<div id="footLogo">
-	    		<img src="images/traa_logo.svg" alt="TRAA Footer Logo"  height="132">
+	    		<img src="images/traa_logo_footer.svg" alt="TRAA Footer Logo" >
 
 	    		
 	    	</div>
+	    	
 
-	    	<nav id="botNav">
+			<div id="footerNav">
+
+	    	<nav id="NavL">
 	    		<h2 class="hidden"> Footer Navigation</h2>
 	    		<ul>
 	    			<li><a href="index.html">Home</a></li>
 	    			<li><a href="about.html">About</a></li>
 	    			<li><a href="contact.html">Contact</a></li>
-	    			<li><a href="contact.html">Volunteer</a></li>
-	    			<li><a href="memberships.html">Become a member</a></li>
-
 	    		</ul>
-	    		<a href="https://www.facebook.com/groups/4TRAA/about/">
-	    			<img src="images/facebook_icon.svg" alt=" Facebook icon" width="47" height="47">
-	    		</a>
-	    		
+	    	</nav>
+	    	<nav id="NavR">
+	    		<h2 class="hidden"> Footer Navigation 2</h2>
+	    		<ul>
+	    			<li><a href="memberships.html">Become a member</a></li>
+	    			<li><a href="contact.html">Volunteer</a></li>	
+	    			<li><a href="memberships.html">Donate</a></li>	
+	    		</ul>
 	    	</nav>
 	    	
+			</div>
+	    	<div id="footerMedia">
+	    		<h2 class="hidden"> TRAA Social Media</h2>
+	    		<p>Social Media</p>
+	    		<div id="icons">
+	    		<a href="https://www.facebook.com/groups/4TRAA/about/"><img src="images/facebook_icon.svg" alt="Facebook icon"></a>
+	    		<a href="mailto:traa@anglers.org"><img src="images/email_adress.svg" alt="Mail icon"></a>
+	    		<a href="https://www.youtube.com/watch?v=LMBa13_FFU4&feature=youtu.be"><img src="images/youtube_icon.svg" alt="YouTube icon"></a>
+	    	</div>
 
-	    	
+	    	</div>
+	    	<div id="mailAdress">
+	    		<h2> Mailing Adress</h2>
+	    		<p> The TRAA
+<span>2202 Coronation Drive</span>
+London, Ontario
+<span>N6G 0B9</span></p>
+	    	</div>
+
+	    
 	    </footer>
 
-	    <section id="bottomBar">
-	    		<h2 class="hidden"> Bottom Bar</h2>
-	    		<p> © 2019 TRAA Canada</p>
+		
 
-	    		
-	    	</section>
-
-	
-
-	
-
-			
-</div>	
 	<script src="js/main.js"></script>
 </body>
 </html>

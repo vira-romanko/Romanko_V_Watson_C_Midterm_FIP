@@ -1,31 +1,27 @@
-console.log("fireeeed!!");
+(function(){
+  "use strict";
+  
+  console.log("fired");
 
-var slideIndex = 1;
-showSlides(slideIndex);
+  var button = document.querySelector("#button");
+  var burgerCon = document.querySelector("#hamCon");
+  var searchButton = document.querySelector(" #search");
+  var searchBox = document.querySelector(".searchBox")
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1} 
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none"; 
+  function hamburgerMenu() {
+    hamCon.classList.toggle("slideToggle");
+    button.classList.toggle("expanded");
   }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
+
+  function SearchBox(){
+  	searchBox.classList.toggle("slideToggle");
+  	searchButton.classList.toggle("expanded");
   }
-  slides[slideIndex-1].style.display = "block"; 
-  dots[slideIndex-1].className += " active";
-}
+
+  button.addEventListener("click", hamburgerMenu, false);
+  searchButton.addEventListener("click", SearchBox, false)
+
+  
+    
+})();
 
