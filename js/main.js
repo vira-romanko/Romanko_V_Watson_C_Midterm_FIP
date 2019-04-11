@@ -19,7 +19,7 @@
   }
 
   button.addEventListener("click", hamburgerMenu, false);
-  searchButton.addEventListener("click", SearchBox, false)
+  searchButton.addEventListener("click", SearchBox, false);
 
   
     

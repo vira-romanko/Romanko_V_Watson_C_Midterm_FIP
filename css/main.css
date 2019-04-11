@@ -33,10 +33,10 @@ img {
 
 @font-face {
     font-family: 'pt_sans_captionregular';
-    src: url('../fonts/ptc55f-webfont.woff2') format('woff2'),
-         url('../fonts/ptc55f-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    src: url('../fonts/PTC55F.ttf') format('truetype'),
+         url('../fonts/PTC75F.ttf') format('truetype');
+  /*  font-weight: normal;
+    font-style: normal;*/
 
 }
 
@@ -194,6 +194,8 @@ body
 #becomeAmember 
 {
 	display:none;
+
+
 }
 
 #search {
@@ -386,6 +388,383 @@ body
 }
 
 
+/*HOME PAGE*/
+
+#hero
+{
+	width: auto;
+	
+	/*height: 154px;*/
+	margin-top: 100px;
+	
+	/*margin-bottom: 100px;*/
+}
+
+
+
+#hero h2
+{
+text-align: center;
+
+	color: #393937;
+	font-family: "rockwell",sans-serif;
+	font-weight: bold;
+	padding: 5px;
+	margin-top: 15px;
+}
+
+.divStick {
+	height: 20px;
+	width: 10px;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border-right: solid 3px #5c7031;
+}
+
+.section h2
+{
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "rockwell",sans-serif;
+	text-align: center;
+	
+
+
+}
+
+.section h3
+{
+	color: #5c7031 ;
+	font-family: 'pt_sans_captionregular',sans-serif;
+	margin-top: 10px;
+	margin-bottom: -20px;
+}
+
+.section
+{
+	* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+1,aecc9d+100 */
+background: #f7f7f7; /* Old browsers */
+background: -moz-linear-gradient(top, #f7f7f7 1%, #aecc9d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #f7f7f7 1%,#aecc9d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #f7f7f7 1%,#aecc9d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#aecc9d',GradientType=0 ); /* IE6-9 */
+
+	padding: 10px 10px ;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 50px;
+
+
+}
+
+
+.section object
+{
+	border-bottom: solid 1px #5c7031 ;
+	margin-bottom: -10px;
+
+}
+
+#news {
+	width: auto;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	/*display: flex;
+	flex-direction: column;*/
+
+}
+
+
+#news h2
+{
+	text-align: center;
+	font-family: 'pt_sans_captionregular',sans-serif;
+	font-size: 16px;
+	margin-bottom: 15px;
+
+
+}
+
+
+#deco
+{
+	height: 80px;
+	width: 35%;
+	background-color: #f8f2e9;
+
+}
+
+#news p
+{
+margin-top: -55px;
+margin-left: 40px;
+margin-right: 10px;
+line-height: 1.5;
+font-family: 'pt_sans_captionregular',sans-serif;
+font-size: 16px;
+margin-bottom: 20px;
+}
+
+
+#location a
+{
+	padding: 7px;
+	background-color: #ffdc73;
+	border-radius: 5px;
+	font-size: 14px;
+	/*display: inline-block;*/
+	display: inline-block;
+	
+
+
+	margin-top: 15px;
+
+	margin-right: 40px;
+	font-family: 'pt_sans_captionregular',sans-serif;
+     font-size: 16px;
+     text-align: center;
+	
+
+}
+
+#location a:hover
+{
+	color: #fff;
+	transform: scale(0.95);
+	transition: 0.8s ease;
+	
+background: #f1e767; /* Old browsers */
+background: -moz-linear-gradient(top, #f1e767 0%, #feb645 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #f1e767 0%,#feb645 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #f1e767 0%,#feb645 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645',GradientType=0 ); /* IE6-9 */
+
+}
+
+#location{
+	float: right;
+	margin-top: -30px;
+	
+}
+
+
+.content1
+{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.content1 h2 
+{
+	font-family: 'pt_sans_captionregular',sans-serif;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+
+
+.learnM a
+{
+
+     padding: 10px;
+	background-color: #ffdc73;
+	border-radius: 5px;
+	font-size: 14px;
+	display: inline-block;
+	
+	
+
+
+	margin-top: 10px;
+
+	font-family: 'pt_sans_captionregular',sans-serif;
+     font-size: 16px;
+     text-align: center;
+     margin-bottom: 7px;
+	
+
+}
+
+
+.learnM a:hover
+{
+	color: #fff;
+	transform: scale(0.95);
+	transition: 0.8s ease;
+	
+background: #f1e767; /* Old browsers */
+background: -moz-linear-gradient(top, #f1e767 0%, #feb645 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #f1e767 0%,#feb645 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #f1e767 0%,#feb645 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645',GradientType=0 ); /* IE6-9 */
+}
+
+
+.bgBox
+{
+	height: 220px;
+	width: 80%;
+	background-color: #f8f2e9;
+	margin-bottom: -220px;
+}
+
+
+.bgright
+{
+	float: right;
+	/*height: 220px;
+	max-width: 80%;
+	background-color: #f8f2e9;
+	margin-bottom: -220px;*/
+}
+
+
+#getInvolved {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: auto;
+	/*height: 115px;*/
+	border-bottom: solid 1px #5c7031;
+	margin-bottom: 20px;
+	margin: 5px;
+	margin-top: 15px;
+}
+
+#getInvolved h2
+{
+	font-family: 'pt_sans_captionregular',sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color:#5c7031 ;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+#getInvolved a:hover h2
+
+{
+	padding: 4px 2px 4px 2px;
+	color: #fff;
+	animation: colorme 1.5s;
+	border-radius: 5px;
+	background-color: #5c7031 ;
+
+}
+
+@keyframes colorme {
+	from{
+		transition:background-color: #fff;
+		transform: scale(1);
+	}
+
+	to
+	{
+		transition:background-color: #5c7031 ;
+		transform: scale(1.2);
+	}
+}
+
+#getInvolved object
+{
+	
+	margin-bottom: 20px;
+	margin-top: 10px; 
+	max-width: 42%;
+
+
+
+
+
+}
+
+.icons
+{
+	text-align: center;
+}
+
+
+
+#majorSponsors
+{
+	
+
+	display flex;
+	flex-wrap: wrap;
+	
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "rockwell",sans-serif;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+
+}
+
+#majorSponsors img
+{
+	max-width: 65%;
+}
+
+
+#majorSponsors h2
+{
+margin-top: 30px;
+margin-bottom: 30px;
+}
+#sponsorRow1 {
+	width: auto;
+	
+	display: flex;
+
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#sponsorRow2 {
+	width: auto;
+	
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 10px;
+
+}
+
+
+.angling 
+{
+	margin-top: -15px;
+}
+
+
+.guilevin
+{
+	margin-top: 10px;
+}
+
+#muma
+{
+	margin-top: 0;
+}
+
+/*.content1 img
+	{
+		max-width: 30%;
+	}
+*/
+
+
+
+
+
 
 @media screen and (min-width: 400px){
 	#footLogo
@@ -419,7 +798,32 @@ body
 	
 	
 }
+
+#majorSponsors img
+{
+	max-width: 80% ;
 }
+
+
+
+}
+
+@media screen and (min-width: 700px){
+	/*.guilevin
+	{
+		margin-top: 30px;
+	}*/
+
+
+/*.angling
+	{
+		margin-top: -10px;
+	}*/
+
+}
+
+
+
 
 
 /*tablet*/
@@ -456,7 +860,7 @@ body
 	/*color: black;*/
 	font-weight: bold;
 	font-family: 'rockwell';
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 25px;
 	
 	width: 100%;
@@ -477,7 +881,7 @@ body
 #mainNav li
 {
     display: inline;
-    padding: 10px;
+    padding: 7px;
 }
 
 #mainNav li a:hover
@@ -500,6 +904,7 @@ body
 	float:right;
 	margin-right: 30px;
 	margin-top: 5px;
+
 
 }
 
@@ -581,27 +986,101 @@ font-weight: bold;
 	padding: 5px;
 }
 
+/*.guilevin
+{
+	margin-top: 30px;
+}*/
+
+#getInvolved object
+{
+	max-width: 35%;
+
+}
+
+.angling
+	{
+		margin-top: 15px;
+	}
 
 
+
+
+	.content1 img
+	{
+		max-width: 40%;
+	}
+
+	.bgBox
+	{
+	height:300px;
+	max-width: 80%;
+	background-color: #f8f2e9;
+	margin-bottom: -300px;
+	}
+.learnM a
+{
+	font-size: 18px;
+	padding: 10px 20px 10px 20px;
+	
+	border-radius: 5px;
+	display: inline-block;
+	
+	
+
+
+	margin-top: 30px;
+
+	font-family: 'pt_sans_captionregular',sans-serif;
+    
+     text-align: center;
+     margin-bottom: 20px;
+	
+}
+	
+
+	.content1 h2
+	{
+		margin-top: 50px;
+		font-size: 20px;
+	}
+
+
+
+
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 740px){
+	.angling
+	{
+		margin-top: -15px;
+	}
 }
 
 
 @media screen and (min-width: 860px){
 	#hamCon
 	{
-		font-size: 24px;
+		font-size: 20px;
 
 	}
 	#memberships
 	{
 		padding: 7px;
 	}
+
+
 }
 
 
 /*desktop*/
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1027px) {
 
 #mainHeader {
 	display: flex;
@@ -690,4 +1169,11 @@ font-weight: bold;
 	margin-top: 30px;
 	font-size: 18px;
 }
+
+#muma
+{
+	margin-top: 30px;
+}
+
+
 }
