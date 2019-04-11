@@ -58,7 +58,7 @@ a
 body
 {
 	background-color: #fff;
-	font-color: #393937;
+	color: #393937;
 	font-family: 'pt_sans_captionregular';
 	color: #393937;
 
@@ -443,7 +443,7 @@ text-align: center;
 
 .section
 {
-	* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+1,aecc9d+100 */
+	/** Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+1,aecc9d+100 */
 background: #f7f7f7; /* Old browsers */
 background: -moz-linear-gradient(top, #f7f7f7 1%, #aecc9d 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top, #f7f7f7 1%,#aecc9d 100%); /* Chrome10-25,Safari5.1-6 */
@@ -655,13 +655,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', end
 
 @keyframes colorme {
 	from{
-		transition:background-color: #fff;
+		background-color: #fff;
 		transform: scale(1);
 	}
 
 	to
 	{
-		transition:background-color: #5c7031 ;
+		background-color:  #5c7031 ;
 		transform: scale(1.2);
 	}
 }
@@ -691,7 +691,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', end
 {
 	
 
-	display flex;
+	/*display: flex;*/
 	flex-wrap: wrap;
 	
 	text-align: center;
