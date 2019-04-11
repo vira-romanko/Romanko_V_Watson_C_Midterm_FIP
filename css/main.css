@@ -360,7 +360,7 @@ body
 
 #footerMedia img
 {
-    width: 25%;
+    width: 10%;
 	
 	
 }
@@ -671,7 +671,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', end
 	
 	margin-bottom: 20px;
 	margin-top: 10px; 
-	max-width: 42%;
+	width: 40%;
 
 
 
@@ -772,6 +772,12 @@ margin-bottom: 30px;
 	{
 		max-width: 120px;
 	}
+	#footerMedia img
+{
+    width: 25%;
+	
+	
+}
 
 	
 
