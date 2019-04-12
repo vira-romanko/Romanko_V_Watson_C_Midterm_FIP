@@ -1,68 +1,101 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-		<meta charset="utf-8">
+		<meta charset="utf-8"/>
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 		<title> TRAA Projects</title>
 		<!-- link to reset first -->
-		<link rel="stylesheet" type="text/css" href="css/reset.css">
-		<link href="https://fonts.googleapis.com/css?family=Chivo%7CRoboto+Slab" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css" >
 	</head>
 
 <body>
 <div id="siteContainer">
-	<h1 class="hidden"> TRAA Projects</h1>
+	<h1 class="hidden">Thames River Anglers Association</h1>
   
   
-  <section id="topBar"><h2 class="hidden"> Top Bar</h2>  </section>
 	<header id="mainHeader">
 			 
-		<div id="logo">
-	         <img src="images/traa_logo.svg" alt="TRAA logo" width="200">
-	    </div>
 			
 			<nav id="mainNav">
+				
 				<h2 class="hidden">Main Navigation</h2>
-				<ul>
-					<li><a href="index.html">HOME</a></li>
-					<li><a href="about.html">ABOUT</a></li>
-					<li><a href="pastevents.html">PAST EVENTS</a></li>
-					<li><a href="projects.html">PROJECTS</a></li>
-					<li><a href="contact.html">CONTACT</a></li>
+				<button id="button"></button>
+	
+			<div id="hamCon">
+				<ul id="burgMenu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="pastevents.html">Past Events</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="contact.html">Contact</a></li>
+
 				</ul>
-
-				<div id="becomeAmember">
-					<a href="memberships.html">Become a member</a>
-				</div>
-
+			</div>
+			<div id="memberships"><a href="memberships.html"><span>Become a member</span></a></div>
 			</nav>
+
+				<div id="logo">
+	         <img src="images/traa_logo_header.svg" alt="TRAA logo" >
+	   			</div>
+
+				
+
+              <div id="searchCon">
+              	<button id="search"></button>
+
+              	<form action="search.php" class="searchBox">
+             
+              	<input type="text" placeholder="Type...">
+              </form>
+               
+                 
+              </div>
+
+            
+           
+
+
 			
 			
 	</header>
 
 
-	<div>
-		<h2  class="title" id="projects"> TRAA Projects</h2>
+	<div id="titleSection1">
+		<h2  class="title"> TRAA Projects</h2>
 
-		<p class="subTitle" id="motto"> “Hands-on enviromentalizm” is what we do...</p>
+		<p class="subTitle" id="motto"> “Hands-on enviromentalizm” <span>is what we do...</span></p>
 		<p id="plainT"> You'll find us right in the water clearing obstructions from streams, measuring returning salmonids and taking scale samples for DNA analysis, education through trout hatchery tours...</p>
 
-		<img src="images/hero_img.jpg" alt=" Fish image">
+		<object data="images/traa_trees_mobile.svg" type="image/svg+xml"></object>
+
+		<picture>
+			<source srcset="images/hero_pjc_small.jpg" media="(max-width: 340px)">
+				<img src="images/hero_pjc_large.jpg" alt="Thames River">
+		</picture>
 
 		<h2 class="title vitalPjc"> TRAA Most Vital Projects</h2>
 	</div>
 
 		<div id="pjc">
-			<section class="pjcHover ">
-				<h2 class="subTitle"> Trout Hatchery</h2>
-				<img src="images/trout_hatchery_2.jpg" alt="Trout Hatchery Image" >
-				<a href="#"><p class="learnMore "> Learn More</p></a>
-			</section>
-
 			<section class="pjcHover">
-				<h2 class="subTitle"> Salmonid Monitoring</h2>
-				<img src="images/salminid.jpg" alt="Salmonid Monitoring Image">
-				<a href="#"><p class="learnMore"> Learn More</p></a>
+				<h2 class="hidden">Content 1</h2>
+				 <div><a href="projects.html"><span>Trout Hatchery</span></a></div>
+				<picture>
+			<source srcset="images/trout_hatchery_small.jpg" media="(max-width: 699px)" >
+				<img src="images/trout_hatchery_large.jpg" alt="Trout Hatchery">
+		</picture>
+			</section>
+			
+<section class="pjcHover">
+	<h2 class="hidden">Content 2</h2>
+				<div><a href="projects.html"> <span>Salmonid Monitoring</span></a></div>
+				<picture>
+			<source srcset="images/salminid_pj_small.jpg" media="(max-width: 699px)">
+				<img src="images/salminid_pj_large.jpg" alt="Salmonid Monitoring">
+		</picture>
 			</section>
 		</div>
 		
@@ -81,18 +114,36 @@
 			<h2 class="title"> Want to see more projects?</h2>
 			<p class="subTitle"> Take a look at the TRAA<a href="pastevents.html"> <span>Past Events</span> </a></p>
 			</div>
-			<div id="morePjc">
-				<div id="oneEvent">
-				<a href="#"><img src="images/paddling.jpg" alt=" Paddling Image" id="paddling"></a>
 
-				<div id="twoEvents">
-				<a href="#"><img src="images/rainbows.jpg" alt="Rainbows Image"></a>
-				<a href="#"><img src="images/cleanup.jpg" alt=" Cleanup Image"></a>
+			<div id="morePjc">
+				<div id="oneEvent" class="pjcImg">
+				<a href="projects.html">
+				<picture>
+			<source srcset="images/paddling_small.jpg" media="(max-width: 700px)">
+				<img src="images/paddling_large.jpg" alt="Paddling Image">
+		</picture></a>
+	</div>
+
+				<div id="twoEvents" class="pjcImg">
+				<a href="projects.html">
+					<picture>
+			<source srcset="images/rainbows_small.jpg" media="(max-width: 700px)">
+				<img src="images/rainbows_large.jpg" alt="Rainbows Image">
+		</picture></a>
+				
+				<a href="projects.html">
+					<picture>
+			<source srcset="images/cleanup_small.jpg" media="(max-width: 699px)" >
+				<img src="images/cleanup_large.jpg" alt="Clean up Image">
+		</picture>
+				</a>
 				</div>
-			</div>
-			</div>
+		
+			
 
           </div>
+      </div>
+
 		
 
 
@@ -103,59 +154,56 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	 <footer id="mainFooter">
+<footer id="mainFooter">
 	    	<h2 class="hidden"> Main Footer</h2>
 	    	<div id="footLogo">
-	    		<img src="images/traa_logo.svg" alt="TRAA Footer Logo"  height="132">
+	    		<img src="images/traa_logo_footer.svg" alt="TRAA Footer Logo" >
 
 	    		
 	    	</div>
+	    	
 
-	    	<nav id="botNav">
+			<div id="footerNav">
+
+	    	<nav id="NavL">
 	    		<h2 class="hidden"> Footer Navigation</h2>
 	    		<ul>
 	    			<li><a href="index.html">Home</a></li>
 	    			<li><a href="about.html">About</a></li>
 	    			<li><a href="contact.html">Contact</a></li>
-	    			<li><a href="contact.html">Volunteer</a></li>
-	    			<li><a href="memberships.html">Become a member</a></li>
-
 	    		</ul>
-	    		<a href="https://www.facebook.com/groups/4TRAA/about/">
-	    			<img src="images/facebook_icon.svg" alt=" Facebook icon" width="47" height="47">
-	    		</a>
-	    		
+	    	</nav>
+	    	<nav id="NavR">
+	    		<h2 class="hidden"> Footer Navigation 2</h2>
+	    		<ul>
+	    			<li><a href="memberships.html">Become a member</a></li>
+	    			<li><a href="contact.html">Volunteer</a></li>	
+	    			<li><a href="memberships.html">Donate</a></li>	
+	    		</ul>
 	    	</nav>
 	    	
+			</div>
+	    	<div id="footerMedia">
+	    		<h2 class="hidden"> TRAA Social Media</h2>
+	    		<p>Social Media</p>
+	    		<div id="icons">
+	    		<a href="https://www.facebook.com/groups/4TRAA/about/"><img src="images/facebook_icon.svg" alt="Facebook icon"></a>
+	    		<a href="mailto:traa@anglers.org"><img src="images/email_adress.svg" alt="Mail icon"></a>
+	    		<a href="https://www.youtube.com/watch?v=LMBa13_FFU4&feature=youtu.be"><img src="images/youtube_icon.svg" alt="YouTube icon"></a>
+	    	</div>
 
-	    	
+	    	</div>
+	    	<div id="mailAdress">
+	    		<h2> Mailing Adress</h2>
+	    		<p> The TRAA
+<span>2202 Coronation Drive</span>
+London, Ontario
+<span>N6G 0B9</span></p>
+	    	</div>
+
+	    
 	    </footer>
 
-	    <section id="bottomBar">
-	    		<h2 class="hidden"> Bottom Bar</h2>
-	    		<p> © 2019 TRAA Canada</p>
-
-	    		
-	    	</section>
-
-	
-
-	
 
 			
 </div>	
