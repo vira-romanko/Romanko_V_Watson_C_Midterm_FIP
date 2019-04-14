@@ -1,51 +1,76 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-		<meta charset="utf-8">
-		<title>TRAA Contact</title>
-		<link rel="stylesheet" type="text/css" href="css/reset.css">
-		<link href="https://fonts.googleapid.com/css?family=Chivo%7CRoboto+Slab" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<meta charset="utf-8"/>
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title> Thames River Anglers Association</title>
+		<!-- link to reset first -->
+		<link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css" >
 	</head>
 
 <body>
 <div id="siteContainer">
+	<h1 class="hidden">Thames River Anglers Association</h1>
   
-  <section id="topBar"><h2 class="hidden"> Top Bar</h2></section>
+  
 	<header id="mainHeader">
 			 
-		<div id="logo">
-	         <img src="images/traa_logo.svg" alt="TRAA logo" width="200">
-	    </div>
 			
 			<nav id="mainNav">
+				
 				<h2 class="hidden">Main Navigation</h2>
-				<ul>
-					<li><a href="index.html">HOME</a></li>
-					<li><a href="about.html">ABOUT</a></li>
-					<li><a href="pastevents.html">PAST EVENTS</a></li>
-					<li><a href="projects.html">PROJECTS</a></li>
-					<li><a href="contact.html">CONTACT</a></li>
+				<button id="button"></button>
+	
+			<div id="hamCon">
+				<ul id="burgMenu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="pastevents.html">Past Events</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="contact.html">Contact</a></li>
+
 				</ul>
-
-				<div id="becomeAmember">
-					<a href="memberships.html">Become a member</a>
-				</div>
-
+			</div>
+			<div id="memberships"><a href="memberships.html"><span>Become a member</span></a></div>
 			</nav>
-			
-			
+
+				<div id="logo">
+	         <img src="images/traa_logo_header.svg" alt="TRAA logo" >
+	   			</div>
+
+				
+
+              <div id="searchCon">
+              	<button id="search"></button>
+
+              	<form action="search.php" class="searchBox">
+             
+              	<input type="text" placeholder="Type...">
+              </form>
+               
+                 
+              </div>
+
+           		
 	</header>
 
+<div id="contactCon">
 	<section id="contactHeading">
 		<h2>Contact the TRAA</h2>
 		<p>Get in touch with us. We value your input!</p>
 	</section>
 
 	<form id="formCon">
+		
+		
 		<div id="nameInput">
-			<label for="name">Name:</label>
-    		<input type="text" id="name" name="Name" placeholder="First and last name">
+			<label for="name">First name:</label>
+    		<input type="text" id="name" name="Name" placeholder="First name">
+    		<label for="name">Last name:</label>
+    		<input type="text" id="name" name="Name" placeholder="Last name">
 		</div>
 		
 		<div id="emailInput">
@@ -54,12 +79,14 @@
 		</div>
 		
 		<div id="checkBox">
-			<p>I have a question or comment about...</p>
-			<input type="checkbox" name="option1" value="habitat">Thames River fishery and habitat<br>
-			<input type="checkbox" name="option2" value="help">How to volunteer or help<br>
-			<input type="checkbox" name="option3" value="merch">TRAA Merchandise<br>
-			<input type="checkbox" name="option4" value="membership">Membership or support inquiries<br>
-			<input type="checkbox" name="option5" value="merch">Projects and events<br>
+			<p>I have a question or comment about:</p>
+		<div id="checkboxbox">
+			<div class="checkBrow"><input type="checkbox" name="option1" value="habitat">Thames River fishery and habitat<br></div>
+			<div class="checkBrow"><input type="checkbox" name="option2" value="help">How to volunteer or help<br></div>
+			<div class="checkBrow"><input type="checkbox" name="option3" value="merch">TRAA Merchandise<br></div>
+			<div class="checkBrow"><input type="checkbox" name="option4" value="membership">Membership or support inquiries<br></div>
+			<div class="checkBrow"><input type="checkbox" name="option5" value="merch">Projects and events<br></div>
+		</div>
 		</div>
 		
 		<div id="messageInput">
@@ -68,7 +95,7 @@
 		</div>
 		
 		<div id="Submit">
-			<a href="#"><p>SUBMIT</p></a>
+			<a href="#"><p>Submit</p></a>
 		</div>
 	
 	</form>
@@ -78,29 +105,28 @@
 	<p>Come by and get to know us</p>
 	</section>
 
+<div id="meetBackgrd">
 <div id="meetingsInfo">
-
 <div id="dateCon">
 		<div><img src="images/calendar.svg" alt="calendaricon"></div>
-		<div id="dateIcon"><p>When</p></div>
+		<div id="dateIcon"><p>When:</p></div>
 	<div id="dateInfo"><p>Every second wednesday of each month</p></div>
 </div>
 
 <div id="timeCon">
 		<div><img src="images/clock.svg" alt="clockicon"></div>
-		<div id="timeIcon"><p>Time</p></div>
+		<div id="timeIcon"><p>Time:</p></div>
 	<div id="timeInfo"><p>7:00pm (please show up earlier)</p></div>
 </div>
 
 <div id="locationCon">
 		<div><img src="images/location.svg" alt="locationmarkericon"></div>
-		<div id="locationIcon"><p>Location</p></div>
+		<div id="locationIcon"><p>Location:</p></div>
 	<div id="locationInfo"><p>790 Southdale Rd. East, London, Ontario</p></div>
 </div>
-
+</div>
+</div>
 <div id="googlemapsPlug">
-
-
 
 
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2920.5518557793503!2d-81.2215784845251!3d42.9455736791519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef3b01c9e9983%3A0x84558efdb9f3a3a1!2s790+Southdale+Rd+E%2C+London%2C+ON+N6E+1A8!5e0!3m2!1sen!2sca!4v1549820294383" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -108,46 +134,64 @@
 
 </div>
 
+
+
 </div>
+
 
 
 	 <footer id="mainFooter">
 	    	<h2 class="hidden"> Main Footer</h2>
 	    	<div id="footLogo">
-	    		<img src="images/traa_logo.svg" alt="TRAA Footer Logo"  height="132">
+	    		<img src="images/traa_logo_footer.svg" alt="TRAA Footer Logo" >
 
 	    		
 	    	</div>
+	    	
 
-	    	<nav id="botNav">
-	    		<h2 class="hidden">Bottom Navigation</h2>
+			<div id="footerNav">
+
+	    	<nav id="NavL">
+	    		<h2 class="hidden"> Footer Navigation</h2>
 	    		<ul>
 	    			<li><a href="index.html">Home</a></li>
 	    			<li><a href="about.html">About</a></li>
 	    			<li><a href="contact.html">Contact</a></li>
-	    			<li><a href="contact.html">Volunteer</a></li>
-	    			<li><a href="memberships.html">Become a member</a></li>
-
 	    		</ul>
-	    		<a href="https://www.facebook.com/groups/4TRAA/about/">
-	    			<img src="images/facebook_icon.svg" alt=" Facebook icon" width="47" height="47">
-	    		</a>
-	    		
+	    	</nav>
+	    	<nav id="NavR">
+	    		<h2 class="hidden"> Footer Navigation 2</h2>
+	    		<ul>
+	    			<li><a href="memberships.html">Become a member</a></li>
+	    			<li><a href="contact.html">Volunteer</a></li>	
+	    			<li><a href="memberships.html">Donate</a></li>	
+	    		</ul>
 	    	</nav>
 	    	
+			</div>
+	    	<div id="footerMedia">
+	    		<h2 class="hidden"> TRAA Social Media</h2>
+	    		<p>Social Media</p>
+	    		<div id="icons">
+	    		<a href="https://www.facebook.com/groups/4TRAA/about/"><img src="images/facebook_icon.svg" alt="Facebook icon"></a>
+	    		<a href="mailto:traa@anglers.org"><img src="images/email_adress.svg" alt="Mail icon"></a>
+	    		<a href="https://www.youtube.com/watch?v=LMBa13_FFU4&feature=youtu.be"><img src="images/youtube_icon.svg" alt="YouTube icon"></a>
+	    	</div>
 
-	    	
+	    	</div>
+	    	<div id="mailAdress">
+	    		<h2> Mailing Adress</h2>
+	    		<p> The TRAA
+<span>2202 Coronation Drive</span>
+London, Ontario
+<span>N6G 0B9</span></p>
+	    	</div>
+
+	    
 	    </footer>
 
-	    <section id="bottomBar">
-	    		<h2 class="hidden">Bottom Bar</h2>
-	    		<p> © 2019 TRAA Canada</p>
+		
 
-	    		
-	    	</section>
-
-			
-</div>	
 	<script src="js/main.js"></script>
 </body>
 </html>
