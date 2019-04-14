@@ -1,86 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-		<meta charset="utf-8">
+		<meta charset="utf-8"/>
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 		<title> About TRAA</title>
 		<!-- link to reset first -->
-		<link rel="stylesheet" type="text/css" href="css/reset.css">
-		<link href="https://fonts.googleapis.com/css?family=Chivo%7CRoboto+Slab" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css" >
 	</head>
 
 <body>
 <div id="siteContainer">
-	<h1 class="hidden">About TRAA</h1>
+	<h1 class="hidden">Thames River Anglers Association</h1>
   
   
-  <section id="topBar"><h2 class="hidden"> Top Bar</h2>  </section>
 	<header id="mainHeader">
 			 
-		<div id="logo">
-	         <img src="images/traa_logo.svg" alt="TRAA logo" width="200">
-	    </div>
 			
 			<nav id="mainNav">
+				
 				<h2 class="hidden">Main Navigation</h2>
-				<ul>
-					<li><a href="index.html">HOME</a></li>
-					<li><a href="about.html">ABOUT</a></li>
-					<li><a href="pastevents.html">PAST EVENTS</a></li>
-					<li><a href="projects.html">PROJECTS</a></li>
-					<li><a href="contact.html">CONTACT</a></li>
+				<button id="button"></button>
+	
+			<div id="hamCon">
+				<ul id="burgMenu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="pastevents.html">Past Events</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="contact.html">Contact</a></li>
+
 				</ul>
-
-				<div id="becomeAmember">
-					<a href="memberships.html">Become a member</a>
-				</div>
-
+			</div>
+			<div id="memberships"><a href="memberships.html"><span>Become a member</span></a></div>
 			</nav>
+
+				<div id="logo">
+	         <img src="images/traa_logo_header.svg" alt="TRAA logo" >
+	   			</div>
+
+				
+
+              <div id="searchCon">
+              	<button id="search"></button>
+
+              	<form action="search.php" class="searchBox">
+             
+              	<input type="text" placeholder="Type...">
+              </form>
+               
+                 
+              </div>
+
+            
+           
+
+
 			
 			
 	</header>
 
 
-	<div>
-		<h2  class="about"> About the TRAA</h2>
-		<p  class="subAbout"> Who are we ?</p>
+
+	<div id="about">
+		<h2  class="title"> About the TRAA</h2>
+		<h3  class="subTitle"> Who are we ?</h3>
+		<p>For the enhancement, protection and promotion of a viable,
+multi-species fishery within the Thames River watershed.</p>
+		<object data="images/traa_trees_mobile.svg" type="image/svg+xml"></object>
+		</div>
+
+
 		<section class="points">
 			<h2 class="hidden"> TRAA main points 1</h2>
-			<img src="images/checkmark_1.svg" alt=" Checkmark icon">
+			<img src="images/checked.svg" alt=" Checkmark icon">
 			<p class="pointsText">A volunteer organization, governed by a formal constitution and by-laws</p>
 		</section>
 
-
 		<section class="points">
 			<h2 class="hidden"> TRAA main points 2</h2>
-			<img src="images/checkmark_1.svg" alt=" Checkmark icon">
+			<img src="images/checked.svg" alt=" Checkmark icon">
 			<p class="pointsText">Formed in 1986 by anglers concerned with the state of the fishery in the Thames River watershed</p>
 		</section>
 
 		<section class="points">
 			<h2 class="hidden"> TRAA main points 3</h2>
-			<img src="images/checkmark_1.svg" alt=" Checkmark icon">
+			<img src="images/checked.svg" alt=" Checkmark icon">
 			<p class="pointsText">Group of active members supported by those who just want to be part of the solution</p>
 		</section>
 
 
 		<section class="points">
 			<h2 class="hidden"> TRAA main points 4</h2>
-			<img src="images/checkmark_1.svg" alt=" Checkmark icon">
+			<img src="images/checked.svg" alt=" Checkmark icon">
 			<p class="pointsText">We are “hands-on” environmental group who likes to work at the grassroot level</p>
 		</section>
 
-	</div>
+
 
 
 	<div>
-		<h2 class="subAbout" id="mission"> Our Mission</h2>
+		<h2 class="subTitle" id="mission"> Our Mission</h2>
 
 		<div id="firstR">
 			<section class="protect" id="section1">
 				<h2 class="titleP"> Protect</h2>
-				 <!-- <img src="images/protect.svg" alt="Protect icon"> -->
+			
+				 <img src="images/protect2.svg" alt="Protect icon">
 				 <p class="hoverText"> Protect, enhance and regenerate a viable, multi-species, year-round fishery.</p>
+		
 
 				
 			</section>
@@ -88,7 +118,7 @@
 
 			<section class="protect" id="section2">
 				<h2 class="titleP"> Participate</h2>
-				<!-- <img src="images/participate.svg" alt="Participate icon"> -->
+				<img src="images/participate.svg" alt="Participate icon"> 
 				 <p class="hoverText"> Promote and participate in environmental clean-up, pollution control and rehabilitation.</p> 
 
 				
@@ -97,7 +127,7 @@
 
 			<section class="protect" id="section3">
 				<h2 class="titleP"> Promote</h2>
-				<!-- <img src="images/promote.svg" alt="Promote icon"> -->
+				 <img src="images/promote1.svg" alt="Promote icon"> 
 				<p class="hoverText"> Promote environmentally sound sport fishing practices.</p> 
 
 				
@@ -109,7 +139,7 @@
 
 			<section class="protect" id="section4">
 				<h2 class="titleP"> Re-establish</h2>
-				<!-- <img src="images/fish.svg" alt="Re-establish icon"> -->
+				<img src="images/fish1.svg" alt="Re-establish icon">
 				<p class="hoverText"> Breed, relocate and stock to re-establish or augment appropriate species of fish.</p> 
 
 				
@@ -117,7 +147,7 @@
 
 			<section class="protect" id="section5">
 				<h2 class="titleP"> Form</h2>
-				<!-- <img src="images/form.svg" alt="Form icon"> -->
+				<img src="images/handshake.svg" alt="Form icon"> 
 				 <p class="hoverText"> Form partnerships with community businesses. </p> 
 
 				
@@ -125,7 +155,7 @@
 
 			<section class="protect" id="section6">
 				<h2 class="titleP"> Increase</h2>
-				<!-- <img src="images/increace.svg" alt="Increase icon"> -->
+				 <img src="images/increase.svg" alt="Increase icon"> 
 				<p class="hoverText"> Increase public awareness of the unique diversity of the Thames River Watershed.</p> 
 
 				
@@ -133,6 +163,7 @@
 
 			
 		</div>
+		 </div>
 
 
 
@@ -177,7 +208,7 @@
 		</section>
     </div>
 
-  </div>
+	</div>
 
 
 <div id="sites">
@@ -186,28 +217,26 @@
    <div id="links1"> 
 
    
-   	<a href="https://www.ontariostreams.on.ca"><img src="images/ontario_streams.svg" alt=" Ontarion Streams icon"></a>
+   	<a href="https://www.ontariostreams.on.ca"><img src="images/ontario_streams.png" alt=" Ontarion Streams icon"></a>
     
 	<h2 class="hidden"> Links Section</h2>
-   	<a href="https://www.northshoresteelhead.com"><img src="images/north_shore.svg" alt=" Ontarion Streams icon" ></a>
+   	<a href="https://www.northshoresteelhead.com"><img src="images/north_shore.png" alt=" Ontarion Streams icon" ></a>
 
-   	<a href="https://www.caroliniancanada.ca"><img src="images/carolinian.svg" alt=" Ontarion Streams icon"></a>
+   	<a href="https://www.caroliniancanada.ca"><img src="images/carolinian.png" alt=" Ontarion Streams icon"></a>
 
    		
 
 
 
-</div>
 
-<div id="links2">
-	<a href="https://www.ofah.org"><img src="images/federation.svg" alt=" Ontarion Federation of Anglers icon"></a>
-	<a href="https://www.tucanada.org"><img src="images/trout_unlimited.svg" alt=" Trout Unlimited Canada icon"></a>
+	<a href="https://www.ofah.org"><img src="images/federation.png" alt=" Ontarion Federation of Anglers icon"></a>
+	<a href="https://www.tucanada.org"><img src="images/trout_unlimited.png" alt=" Trout Unlimited Canada icon"></a>
 
 	
 </div>
 
 
-   </div>
+  
 
 
 	
@@ -262,41 +291,57 @@
 
 
 
-	 <footer id="mainFooter">
+	  <footer id="mainFooter">
 	    	<h2 class="hidden"> Main Footer</h2>
 	    	<div id="footLogo">
-	    		<img src="images/traa_logo.svg" alt="TRAA Footer Logo"  height="132">
+	    		<img src="images/traa_logo_footer.svg" alt="TRAA Footer Logo" >
 
 	    		
 	    	</div>
+	    	
 
-	    	<nav id="botNav">
+			<div id="footerNav">
+
+	    	<nav id="NavL">
 	    		<h2 class="hidden"> Footer Navigation</h2>
 	    		<ul>
 	    			<li><a href="index.html">Home</a></li>
 	    			<li><a href="about.html">About</a></li>
 	    			<li><a href="contact.html">Contact</a></li>
-	    			<li><a href="contact.html">Volunteer</a></li>
-	    			<li><a href="memberships.html">Become a member</a></li>
-
 	    		</ul>
-	    		<a href="https://www.facebook.com/groups/4TRAA/about/">
-	    			<img src="images/facebook_icon.svg" alt=" Facebook icon" width="47" height="47">
-	    		</a>
-	    		
+	    	</nav>
+	    	<nav id="NavR">
+	    		<h2 class="hidden"> Footer Navigation 2</h2>
+	    		<ul>
+	    			<li><a href="memberships.html">Become a member</a></li>
+	    			<li><a href="contact.html">Volunteer</a></li>	
+	    			<li><a href="memberships.html">Donate</a></li>	
+	    		</ul>
 	    	</nav>
 	    	
+			</div>
+	    	<div id="footerMedia">
+	    		<h2 class="hidden"> TRAA Social Media</h2>
+	    		<p>Social Media</p>
+	    		<div id="icons">
+	    		<a href="https://www.facebook.com/groups/4TRAA/about/"><img src="images/facebook_icon.svg" alt="Facebook icon"></a>
+	    		<a href="mailto:traa@anglers.org"><img src="images/email_adress.svg" alt="Mail icon"></a>
+	    		<a href="https://www.youtube.com/watch?v=LMBa13_FFU4&feature=youtu.be"><img src="images/youtube_icon.svg" alt="YouTube icon"></a>
+	    	</div>
 
-	    	
+	    	</div>
+	    	<div id="mailAdress">
+	    		<h2> Mailing Adress</h2>
+	    		<p> The TRAA
+<span>2202 Coronation Drive</span>
+London, Ontario
+<span>N6G 0B9</span></p>
+	    	</div>
+
+	    
 	    </footer>
 
-	    <section id="bottomBar">
-	    		<h2 class="hidden"> Bottom Bar</h2>
-	    		<p> © 2019 TRAA Canada</p>
-
-	    		
-	    	</section>
-
+	    
 	
 
 	
