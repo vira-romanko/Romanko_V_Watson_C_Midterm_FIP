@@ -2415,6 +2415,34 @@ font-weight: bold;
 }
 
 
+/*memberships*/
+#tryVolunteering {
+	width: 40%;
+}
+
+#whymembershipDiv {
+	display: flex;
+	flex-direction: row;
+}
+
+.whymemberHeader {
+	width: 90%;
+	height: 50px;
+}
+
+.whymembershipBox
+{
+	width: 27%;
+	display: flex;
+	flex-direction: column;	
+}
+
+.whymemberHeader h2 {
+	font-size: 19px;
+	margin-top: 5px;
+}
+
+	
 /*PROJECTS PAGE
 */
 
@@ -2668,6 +2696,20 @@ font-weight: bold;
 	font-size: 18px;
 }
 
+/*memberships*/
+#membershipGraph {
+	margin-left: 50px;
+}
+
+#tryVolunteering {
+	width: 30%;
+
+}
+
+#morewayshelp {
+	align-content: center;
+}
+	
 /*past events*/
 .eventsArchive
 {
