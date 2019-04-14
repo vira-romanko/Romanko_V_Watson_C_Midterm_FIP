@@ -1,69 +1,96 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-		<meta charset="utf-8">
-		<title>TRAA Memberships</title>
-		<link rel="stylesheet" type="text/css" href="css/reset.css">
-		<link href="https://fonts.googleapid.com/css?family=Chivo%7CRoboto+Slab" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<meta charset="utf-8"/>
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title> Thames River Anglers Association</title>
+		<!-- link to reset first -->
+		<link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css" >
 	</head>
 
 <body>
 <div id="siteContainer">
+	<h1 class="hidden">Thames River Anglers Association</h1>
   
-  <section id="topBar"><h2 class="hidden"> Top Bar</h2></section>
+  
 	<header id="mainHeader">
 			 
-		<div id="logo">
-	         <img src="images/traa_logo.svg" alt="TRAA logo" width="200">
-	    </div>
 			
 			<nav id="mainNav">
+				
 				<h2 class="hidden">Main Navigation</h2>
-				<ul>
-					<li><a href="index.html">HOME</a></li>
-					<li><a href="about.html">ABOUT</a></li>
-					<li><a href="pastevents.html">PAST EVENTS</a></li>
-					<li><a href="projects.html">PROJECTS</a></li>
-					<li><a href="contact.html">CONTACT</a></li>
+				<button id="button"></button>
+	
+			<div id="hamCon">
+				<ul id="burgMenu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="pastevents.html">Past Events</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="contact.html">Contact</a></li>
+
 				</ul>
-
-				<div id="becomeAmember">
-					<a href="memberships.html">Become a member</a>
-				</div>
-
+			</div>
+			<div id="memberships"><a href="memberships.html"><span>Become a member</span></a></div>
 			</nav>
+
+				<div id="logo">
+	         <img src="images/traa_logo_header.svg" alt="TRAA logo" >
+	   			</div>
+
+				
+
+              <div id="searchCon">
+              	<button id="search"></button>
+
+              	<form action="search.php" class="searchBox">
+             
+              	<input type="text" placeholder="Type...">
+              </form>
+               
+                 
+              </div>
+
+            
+           
+
+
 			
 			
 	</header>
 
+
+
 		<section id="membershipHeading">
 			<h2>Become a member of the TRAA</h2>
-			<p>Make a difference for future generations</p>
+			<p>Become the change</p>
 		</section>
 
-		<img src="images/membershipheroimage.jpg" alt="heroimage">
+		<img src="images/member_hero.jpg" alt="heroimage">
 
 		<div id="whymembershipDiv">
 			<div class="whymembershipBox">
 				<section class="whymemberHeader">
 					<h2>How memberships help</h2>
 				</section>
-					<img src="images/membershipshelpPhoto.jpg" alt="riverguy" width="270">
+					<img src="images/membershipshelpPhoto.jpg" alt="riverguy" >
 						<p>Your membership adds another voice to our efforts in protecting and enhancing aquatic habitats in the London & area community. The Thames River Angler's Association will always be here, putting money into projects that encourage the river habitat to flourish. Every bit counts.</p>
 			</div>
 			<div class="whymembershipBox">
 				<section class="whymemberHeader">
 					<h2>What do you get?</h2>
 				</section>
-				 <img src="images/whatyouget.jpg" alt="TRAAfamily" width="270">
+				 <img src="images/whatyouget.jpg" alt="TRAAfamily" >
 				<p>Being a member of the TRAA has its perks. You get access to certain classes and involvements; like rod building! Don't forget, you are supporting a cause and becoming a part of the solution. Not to mention, you get a free TRAA sticker with your membership.</p>
 			</div>
 			<div class="whymembershipBox">
 				<section class="whymemberHeader">
 					<h2>How to join</h2>
 				</section>
-					<img src="images/TRAAfamilymembers.jpg" alt="TRAAfamily" width="270">
+					<img src="images/TRAAfamilymembers.jpg" alt="TRAAfamily" >
 					<p>Interested in becoming a part of the TRAA? Send us a message! Our memberships are at a low cost of $25 per year. Still not sure? Come and get to know us at one of our upcoming meetings. Guests are always welcome!</p>
 			</div>
 		</div>
@@ -73,7 +100,7 @@
 		</div>
 		
 		<div id="membershipGraph">
-			<img src="images/TRAAmembershipgrowth.png" width="900">
+			<img src="images/TRAAmembershipgrowth.png">
 		</div>
 
 		<div class="yellow2">
@@ -91,36 +118,58 @@
 		
 		</section>
 
-		 <footer id="mainFooter">
-	    	<h2 class="hidden">Main Footer</h2>
+	 <footer id="mainFooter">
+	    	<h2 class="hidden"> Main Footer</h2>
 	    	<div id="footLogo">
-	    		<img src="images/traa_logo.svg" alt="TRAA Footer Logo"  height="132">	
-	    	</div>
+	    		<img src="images/traa_logo_footer.svg" alt="TRAA Footer Logo" >
 
-	    	<nav id="botNav">
-	    		<h2 class="hidden">Bottom Navigation</h2>
+	    		
+	    	</div>
+	    	
+
+			<div id="footerNav">
+
+	    	<nav id="NavL">
+	    		<h2 class="hidden"> Footer Navigation</h2>
 	    		<ul>
 	    			<li><a href="index.html">Home</a></li>
 	    			<li><a href="about.html">About</a></li>
 	    			<li><a href="contact.html">Contact</a></li>
-	    			<li><a href="contact.html">Volunteer</a></li>
-	    			<li><a href="memberships.html">Become a member</a></li>
-
 	    		</ul>
-	    		<a href="https://www.facebook.com/groups/4TRAA/about/">
-	    			<img src="images/facebook_icon.svg" alt=" Facebook icon" width="47" height="47">
-	    		</a>
-	    		
+	    	</nav>
+	    	<nav id="NavR">
+	    		<h2 class="hidden"> Footer Navigation 2</h2>
+	    		<ul>
+	    			<li><a href="memberships.html">Become a member</a></li>
+	    			<li><a href="contact.html">Volunteer</a></li>	
+	    			<li><a href="memberships.html">Donate</a></li>	
+	    		</ul>
 	    	</nav>
 	    	
+			</div>
+	    	<div id="footerMedia">
+	    		<h2 class="hidden"> TRAA Social Media</h2>
+	    		<p>Social Media</p>
+	    		<div id="icons">
+	    		<a href="https://www.facebook.com/groups/4TRAA/about/"><img src="images/facebook_icon.svg" alt="Facebook icon"></a>
+	    		<a href="mailto:traa@anglers.org"><img src="images/email_adress.svg" alt="Mail icon"></a>
+	    		<a href="https://www.youtube.com/watch?v=LMBa13_FFU4&feature=youtu.be"><img src="images/youtube_icon.svg" alt="YouTube icon"></a>
+	    	</div>
+
+	    	</div>
+	    	<div id="mailAdress">
+	    		<h2> Mailing Adress</h2>
+	    		<p> The TRAA
+<span>2202 Coronation Drive</span>
+London, Ontario
+<span>N6G 0B9</span></p>
+	    	</div>
+
+	    
 	    </footer>
 
-	    <section id="bottomBar">
-	    		<h2 class="hidden">Bottom Bar</h2>
-	    		<p> © 2019 TRAA Canada</p>
-	    </section>
-			
-</div>	
+		
+
 	<script src="js/main.js"></script>
 </body>
 </html>
