@@ -2,7 +2,7 @@
 
 
 # www.Anglers.org
-Designed, coded, semantically tagged a static 6 page website.
+Designed, coded, semantically tagged a responsive 6 page website.
 
 
 
