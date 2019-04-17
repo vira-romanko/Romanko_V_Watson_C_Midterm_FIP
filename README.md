@@ -20,5 +20,9 @@ SublimeText
 * **Vira Romanko** - *Designer* 
 * **Cadence Watson** - *Developer* 
 
+## Acknowledgments
+* [Mozilla.org](https://developer.mozilla.org/en-US/)
+* [Codepen.io](https://codepen.io)
+
 
 
