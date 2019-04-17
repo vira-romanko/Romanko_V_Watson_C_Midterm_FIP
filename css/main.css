@@ -389,28 +389,17 @@ body
 
 /*HOME PAGE*/
 
-#hero
+#imageG
 {
-	width: auto;
-	
-	/*height: 154px;*/
+	display:none;
+}
+
+#heroM
+{
 	margin-top: 100px;
-	
-	/*margin-bottom: 100px;*/
 }
 
 
-
-#hero h2
-{
-text-align: center;
-
-	color: #393937;
-	font-family: "rockwell",sans-serif;
-	font-weight: bold;
-	padding: 5px;
-	margin-top: 15px;
-}
 
 .divStick {
 	height: 20px;
@@ -3012,8 +3001,118 @@ font-weight: bold;
 	margin-top: 20px;
 }
 
-}
+
 
 }
+
+@media screen  and (min-width: 1200px)
+{
+
+	#heroM
+{
+	display:none;
+}
+
+#imageG
+{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+#slider, #hero, .content {
+  margin: 0;
+  padding: 0;
+  font-family: 'rockwell',sans-serif;
+  width: auto;
+  height: 600px;
+  overflow-x: hidden;
+}
+
+#hero {
+  position: relative;
+}
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image1 {
+	background-image: url("../images/carousel_3.jpg");
+  
+}
+.image2 {
+	background-image: url("../images/large_merch.jpg");
+  
+}
+.image3 {
+  background-image: url("../images/carousel_1.jpg");
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content span {
+  font-size: 48px;
+  color: #393937;
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  width: 5%;
+
+
+  text-decoration: none;
+  border: 0;
+  background: none;
+  border-style: solid;
+}
+
+#arrows
+{
+	display: flex;
+	z-index: -1;
+}
+
+#arrow-left {
+	transform: rotate(180deg);
+
+	
+  
+}
+
+#arrow-right  {
+
+	
+  
+   margin-left: 1100px;
+  
+}
+
+
+
+
+
+
+
+
+}
+
 
 
